@@ -15,7 +15,7 @@ import java.io.IOException;
 
 
 /**
- * Created by liaopengfei on 2016/12/24.
+ * Created by liaokevin on 2016/12/24.
  */
 @Component
 //@Order(value = 1)
@@ -24,8 +24,6 @@ public class ApplicationLoader implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
      fastDfsClientInit();
-
-
     }
 
     private void fastDfsClientInit() throws IOException{
